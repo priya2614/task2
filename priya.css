@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main-container {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 55, 128),
+    rgb(232, 136, 190)
+  );
+  color: white;
+}
+
+#value {
+  font-size: 80px;
+  margin: 10px;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 15px;
+  background-image: linear-gradient(
+    to right,
+    rgb(234, 142, 62),
+    rgb(149, 231, 115)
+  );
+  color: rgb(11, 10, 10);
+  text-shadow: 3px 4px 4px black;
+  cursor: pointer;
+}
